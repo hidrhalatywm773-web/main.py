@@ -2,7 +2,7 @@ from telegram import Update
 from telegram.ext import ApplicationBuilder, CommandHandler, MessageHandler, filters, ContextTypes
 import os
 
-TOKEN = os.getenv("8653165321:AAHlDhI3yfwCNEnIFnM6wkJCAdNbOru1JiM")
+TOKEN = os.getenv("8653165321:AAGGNECPAmbHeDQfPGZ_UX0kTO3vNOH5WVI")
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await update.message.reply_text("👋 البوت شغال على السيرفر الآن")
